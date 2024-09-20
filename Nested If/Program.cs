@@ -18,6 +18,8 @@
             Console.Write("Enter percentage grade : ");
             percentGrade = double.Parse(Console.ReadLine());
 
+            //Get Ordinary Level results 
+
             if (level == "O")
             {
                 if (percentGrade >= 0 && percentGrade < 30)
@@ -63,6 +65,8 @@
                     Console.WriteLine($"You got {points} points!");
                 }
             }
+
+            //Get Higher Level results 
             else if (level == "H")
             {
                 if (percentGrade >= 0 && percentGrade < 30)
@@ -110,19 +114,6 @@
             }
             else { Console.WriteLine("Incorrect letter please enter either a O / H :) "); }
 
-
-
-
-
-
-
-
-
-
-
-
-
-            
         }
     }
 }

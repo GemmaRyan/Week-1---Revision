@@ -9,11 +9,10 @@
             int points;
 
             //Asking for grade
-            Console.Write("Please enter grade eg. H1 : ");
+            Console.Write("Enter grade : ");
             grade = Console.ReadLine().ToUpper();
 
-
-            //switch statment
+            //switch statmentu
 
             switch (grade)
             {
